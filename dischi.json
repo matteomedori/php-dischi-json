@@ -1,7 +1,44 @@
 [
-  { "name": "Thriller", "author": "Michael Jackson", "year": 1982 },
-  { "name": "The Wall", "author": "Pink Floyd", "year": 1979 },
-  { "name": "Back in Black", "author": "AC/DC", "year": 1980 },
-  { "name": "Abbey Road", "author": "The Beatles", "year": 1969 },
-  { "name": "Nevermind", "author": "Nirvana", "year": 1991 }
+  {
+    "name": "Thriller",
+    "author": "Michael Jackson",
+    "year": 1982,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+    "id": 0
+  },
+  {
+    "name": "The Wall",
+    "author": "Pink Floyd",
+    "year": 1979,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/The_Wall_Cover.svg",
+    "id": 1
+  },
+  {
+    "name": "Back in Black",
+    "author": "AC/DC",
+    "year": 1980,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/ACDC_Back_in_Black_cover.svg/1200px-ACDC_Back_in_Black_cover.svg.png",
+    "id": 2
+  },
+  {
+    "name": "Abbey Road",
+    "author": "The Beatles",
+    "year": 1969,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "id": 3
+  },
+  {
+    "name": "Nevermind",
+    "author": "Nirvana",
+    "year": 1991,
+    "imgUrl": "https://comarecords.com/wp-content/uploads/2021/11/nirvana-1.jpg",
+    "id": 4
+  },
+  {
+    "name": "Hotel California",
+    "author": "Eagles",
+    "year": 1976,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg",
+    "id": 5
+  }
 ]

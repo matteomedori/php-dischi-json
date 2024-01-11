@@ -18,11 +18,44 @@
     <!-- My Css -->
   </head>
   <body>
-    <div id="app">
-      <h1>prova</h1>
-      <ul>
-        <li v-for="disco in dischi">{{ disco.name }}</li>
-      </ul>
+    <div id="app" v-cloak>
+      <!-- header with title -->
+      <header class="py-3">
+        <h1 class="text-center">Music Albums</h1>
+      </header>
+      <!-- /header with title -->
+
+      <!-- main -->
+      <main>
+        <div class="container py-5">
+          <!-- list album container  -->
+          <ul class="row row-cols-3 g-3">
+            <!-- album element -->
+            <li v-for="disco in dischi" class="col">
+              <div class="p-3 border">
+                <img
+                  @click="getInfo(disco.id)"
+                  :src="disco.imgUrl"
+                  :alt="disco.name"
+                />
+                <!-- disco info -->
+                <div
+                  v-if="disco.id === activeId && infoDisco !== null"
+                  class="info text-center mt-2"
+                >
+                  <h2>{{ infoDisco.name }}</h2>
+                  <h3>{{ infoDisco.author }}</h3>
+                  <h3>{{ infoDisco.year }}</h3>
+                </div>
+                <!-- /disco info -->
+              </div>
+            </li>
+            <!-- /album element -->
+          </ul>
+          <!-- /list album container  -->
+        </div>
+      </main>
+      <!-- /main -->
     </div>
 
     <!-- Vue JS -->
