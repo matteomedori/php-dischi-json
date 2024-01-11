@@ -18,7 +18,12 @@
     <!-- My Css -->
   </head>
   <body>
-    <h1>prova</h1>
+    <div id="app">
+      <h1>prova</h1>
+      <ul>
+        <li v-for="disco in dischi">{{ disco.name }}</li>
+      </ul>
+    </div>
 
     <!-- Vue JS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
